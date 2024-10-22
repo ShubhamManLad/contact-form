@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | GUVI</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="body-div">
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <p>Let us know your queries, feedbacks and enquiries. We are here to support you 24/7.</p>
+    
+            <div class="contact-item">
+                <div class="image-div">
+                    <img src="assets/phone_icon.webp" alt="Phone Icon" width="50" height="50">
+                </div>
+                <div>
+                    <p>Give us a call</p>
+                    <h4>+91 9736097320</h4>
+                </div>
+            </div>
+    
+            <div class="contact-item">
+                <div class="image-div">
+                    <img src="assets/email_icon.webp" alt="Email Icon" width="80" height="35">
+                </div>
+                <div>
+                    <p>Write to us</p>
+                    <h4>cs@guvi.in</h4>
+                </div>
+            </div>
+    
+            <div class="contact-item">
+                <div class="image-div">
+                    <img src="assets/location_icon.webp" alt="Location Icon" width="50" height="50">
+                </div>
+                <div>
+                    <div>
+                        <p>Visit us in Chennai @</p>
+                        <h4>
+                            IITM Research park - phase 2, module #9, 3rd floor, D block, Kanagam Rd,<br>
+                            Tharamani, Chennai, Tamil Nadu 600113
+                        </h4>
+                    </div>
+                    <div>
+                        <p>Visit us in Noida @</p>
+                        <h4>
+                            A11, HCL Corporation Pvt. Ltd, Block A, Sector 3, Noida, Uttar Pradesh 201307
+                        </h4>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="form-container">
+            <div class="form-header">
+                <h1>Say <span class="highlight">Hello!</span></h1>
+                <p>Feel free to stop by and say hi!</p>
+            </div>
+            <form id="contactForm">
+                <label for="name">Name <span>*</span></label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+    
+                <label for="email">E-mail id <span>*</span></label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+    
+                <label for="phone">Contact Number <span>*</span></label>
+                <input type="text" id="phone" placeholder="Enter your contact number" required pattern="\d{10}">
+    
+                <label for="subject">Subject <span>*</span></label>
+                <input type="text" id="subject" placeholder="Enter the subject" required>
+    
+                <label for="message">Message <span>*</span></label>
+                <textarea id="message" placeholder="Enter your message" required></textarea>
+    
+                <button type="submit" id="submitButton">Send</button>
+                <p id="responseMessage"></p>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="../dist/app.js"></script>
+</body>
+
+</html>

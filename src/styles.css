@@ -1,0 +1,164 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-div{
+    display: flex;
+    align-items: center;
+}
+
+.contact-container {
+    background-color: white;
+    max-width: 700px;
+    width: 100%;
+    margin: 50px;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: start;
+}
+
+p {
+    text-align: start;
+    color: #555;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.image-div{
+    width: 100px;
+    height: 100px;
+}
+
+.contact-item div p{
+    text-align: start;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.contact-item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-item address {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+.contact-item-addr{
+    text-align: start;
+    text-justify: start;
+}
+
+/* Form Container */
+.form-container {
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgb(160, 160, 160);
+}
+
+/* Header */
+.form-header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+}
+
+.form-header .highlight {
+    color: #27ae60;
+}
+
+.form-header p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Form Fields */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+span {
+    color: red;
+}
+
+#responseMessage {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media(max-width: 1260px){
+    .body-div{
+        flex-direction: column;
+    }
+}
